@@ -166,7 +166,7 @@ export default function Home() {
           </div>
           <div className="flex">
             <p className="2xl:text-8xl text-7xl max-sm:text-4xl font-bold text-primary-purple italic tracking-widest">
-              {age.months}
+              {age.months === 0 ? "--" : age.months}
             </p>
             <p className="2xl:text-8xl text-7xl max-sm:text-4xl font-bold italic">
               months
@@ -174,7 +174,7 @@ export default function Home() {
           </div>
           <div className="flex">
             <p className="2xl:text-8xl text-7xl max-sm:text-4xl font-bold text-primary-purple italic tracking-widest">
-              {age.days}
+              {age.days === 0 ? "--" : age.days}
             </p>
             <p className="2xl:text-8xl text-7xl max-sm:text-4xl font-bold italic">
               days
