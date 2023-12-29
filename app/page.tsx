@@ -58,7 +58,7 @@ export default function Home() {
   return (
     <main className="h-screen bg-neutral-offWhite flex justify-center items-center">
       <section
-        className="bg-neutral-white xl:w-2/5 w-[90%] md:h-3/4 flex flex-col 
+        className="bg-neutral-white xl:w-2/5 w-[90%] md:h-fit flex flex-col 
       xl:rounded-3xl rounded-xl p-12 xl:rounded-br-[200px] rounded-br-[100px] shadow-md "
       >
         <Form {...form}>
